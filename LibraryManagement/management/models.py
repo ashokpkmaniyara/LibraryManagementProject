@@ -6,6 +6,7 @@ class Course(models.Model):
     def __str__(self):
         return f"{self.Course_Name}"
 
+    
 class Book(models.Model):
     Book_Name=models.CharField(max_length=30)
     Author_Name=models.CharField(max_length=30)
